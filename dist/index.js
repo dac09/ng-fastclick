@@ -399,6 +399,10 @@
 		targetElement = this.getTargetElementFromEventTarget(event.target);
 		touch = event.targetTouches[0];
 
+		if (this.needsClick(targetElement)) {
+			return true;
+		}
+
 		if (deviceIsIOS) {
 
 			// Only trusted events will deselect text on iOS (issue #49)

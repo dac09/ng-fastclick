@@ -1,13 +1,13 @@
 {
   "name": "ng-fastclick",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "gulp"
   },
-  "author": "Paul Sweeney <paul@fullscreen.net>",
+  "author": "Daniel Choudhury",
   "license": "MIT",
   "dependencies": {
-    "fastclick": "^1.0.6",
+    "fastclick": "dac09/fastclick",
     "gulp": "^3.8.7",
     "gulp-concat": "^2.3.4",
     "gulp-uglify": "^0.3.1"
